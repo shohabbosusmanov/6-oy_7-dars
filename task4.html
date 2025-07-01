@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                padding: 50px;
+                font-family: "Poppins", sans-serif;
+                font-size: 22px;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-auto-rows: 100px;
+            }
+
+            .child {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .child:nth-child(1) {
+                background-color: #8a2be2;
+            }
+
+            .child:nth-child(2) {
+                background-color: #4067dd;
+            }
+
+            .child:nth-child(3) {
+                background-color: #1e90ff;
+            }
+
+            .child:nth-child(4) {
+                background-color: #5f9ea0;
+            }
+            .child:nth-child(5) {
+                background-color: #3cb371;
+            }
+            .child:nth-child(6) {
+                background-color: #adff2f;
+            }
+            .child:nth-child(7) {
+                background-color: #ffff00;
+            }
+            .child:nth-child(8) {
+                background-color: #ffd700;
+            }
+            .child:nth-child(9) {
+                background-color: #ffa500;
+            }
+            .child:nth-child(10) {
+                background-color: #ff4500;
+            }
+            .child:nth-child(11) {
+                background-color: #ff0000;
+            }
+            .child:nth-child(12) {
+                background-color: #9932cc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="child">Block 1</div>
+            <div class="child">Block 2</div>
+            <div class="child">Block 3</div>
+            <div class="child">Block 4</div>
+            <div class="child">Block 5</div>
+            <div class="child">Block 6</div>
+            <div class="child">Block 7</div>
+            <div class="child">Block 8</div>
+            <div class="child">Block 9</div>
+            <div class="child">Block 10</div>
+            <div class="child">Block 11</div>
+            <div class="child">Block 12</div>
+        </div>
+    </body>
+</html>
